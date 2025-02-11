@@ -9,6 +9,8 @@ const parent = React.createElement("div", { id: "parent" }, [
   ]),
 ]);
 
+//jsx
+
 const heading = React.createElement(
   "h1",
   { id: "heading" },
