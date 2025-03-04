@@ -4,6 +4,16 @@
   border: 2px solid black;
 }
 
+.logo-container{
+  height: 100px;
+  padding-left: 10px;
+  
+}
+.logo{
+  object-fit: cover;
+height: inherit;
+}
+
 .nav-items ul {
   display: flex;
   justify-content: space-around;
@@ -24,12 +34,12 @@
 
 .res-card {
    position: relative;
-  height: 50vh;
+   height: 350px;
   width: 20vw;
   background-color: rgba(234, 205, 205, 0.158);
   
   margin-top: 20px;
-  overflow: hidden;
+ 
   
 }
 
@@ -68,6 +78,13 @@ object-fit: cover;
     justify-content: space-around;
     padding-bottom: 10vh;
     position:absolute;
+   gap: 20px;
+}
+
+.info h5{
+  right: 0%;
+  font-weight: 600;
+  color: darkgrey;
 }
 
 .res-container{
